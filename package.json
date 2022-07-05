@@ -1,7 +1,33 @@
 {
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
     "popper": "^1.0.1",
+    "popper.js": "^1.16.0",
     "save": "^2.5.0"
-  }
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "name": "food-festival",
+  "description": "![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagl0025/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bagl0025/food-festival/issues"
+  },
+  "homepage": "https://github.com/bagl0025/food-festival#readme"
 }
